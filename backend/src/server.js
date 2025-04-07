@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const SpotifyWebApi = require('spotify-web-api-node');
 
 const app = express();
-const PORT = process.env.PORT || 8888;
+const PORT = process.env.PORT || 10000;
 
 // Middleware
 app.use(express.json());
